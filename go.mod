@@ -1,4 +1,4 @@
-module github.com/graph-gophers/graphql-go
+module github.com/AlayaNetwork/graphql-go
 
 require (
 	github.com/AlayaNetwork/Alaya-Go v0.16.2 // indirect
