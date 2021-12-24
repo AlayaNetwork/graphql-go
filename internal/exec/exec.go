@@ -3,12 +3,12 @@ package exec
 import (
 	"bytes"
 	"context"
-	"encoding/json"
 	"fmt"
 	"reflect"
 	"sync"
 	"time"
 
+	"github.com/AlayaNetwork/Alaya-Go/common/json"
 	"github.com/graph-gophers/graphql-go/errors"
 	"github.com/graph-gophers/graphql-go/internal/exec/resolvable"
 	"github.com/graph-gophers/graphql-go/internal/exec/selected"
