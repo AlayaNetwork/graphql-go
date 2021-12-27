@@ -3,19 +3,19 @@ package exec
 import (
 	"bytes"
 	"context"
-	"encoding/json"
 	"fmt"
 	"reflect"
 	"sync"
 	"time"
 
-	"github.com/graph-gophers/graphql-go/errors"
-	"github.com/graph-gophers/graphql-go/internal/exec/resolvable"
-	"github.com/graph-gophers/graphql-go/internal/exec/selected"
-	"github.com/graph-gophers/graphql-go/internal/query"
-	"github.com/graph-gophers/graphql-go/log"
-	"github.com/graph-gophers/graphql-go/trace"
-	"github.com/graph-gophers/graphql-go/types"
+	"github.com/AlayaNetwork/Alaya-Go/common/json"
+	"github.com/AlayaNetwork/graphql-go/errors"
+	"github.com/AlayaNetwork/graphql-go/internal/exec/resolvable"
+	"github.com/AlayaNetwork/graphql-go/internal/exec/selected"
+	"github.com/AlayaNetwork/graphql-go/internal/query"
+	"github.com/AlayaNetwork/graphql-go/log"
+	"github.com/AlayaNetwork/graphql-go/trace"
+	"github.com/AlayaNetwork/graphql-go/types"
 )
 
 type Request struct {

@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/graph-gophers/graphql-go/decode"
-	"github.com/graph-gophers/graphql-go/errors"
-	"github.com/graph-gophers/graphql-go/types"
+	"github.com/AlayaNetwork/graphql-go/decode"
+	"github.com/AlayaNetwork/graphql-go/errors"
+	"github.com/AlayaNetwork/graphql-go/types"
 )
 
 type packer interface {

@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/graph-gophers/graphql-go"
-	gqlerrors "github.com/graph-gophers/graphql-go/errors"
-	"github.com/graph-gophers/graphql-go/example/starwars"
-	"github.com/graph-gophers/graphql-go/gqltesting"
-	"github.com/graph-gophers/graphql-go/introspection"
-	"github.com/graph-gophers/graphql-go/trace"
+	"github.com/AlayaNetwork/graphql-go"
+	gqlerrors "github.com/AlayaNetwork/graphql-go/errors"
+	"github.com/AlayaNetwork/graphql-go/example/starwars"
+	"github.com/AlayaNetwork/graphql-go/gqltesting"
+	"github.com/AlayaNetwork/graphql-go/introspection"
+	"github.com/AlayaNetwork/graphql-go/trace"
 )
 
 type helloWorldResolver1 struct{}
